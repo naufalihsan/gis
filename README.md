@@ -1,6 +1,8 @@
 # GIS
 NSI GIS Coding Test
 
+![](assets/result.png)
+
 ## Author 
 - Naufal Ihsan Pratama
 
