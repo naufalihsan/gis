@@ -30,13 +30,9 @@ db.sequelize.sync({ force: true }).then(() => {
     db.point.bulkCreate(data.point);
 });
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
-})
-
 var api = require('./app/routes/api.routes');
 api(app)
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+    console.log(`App listening at http://localhost:${port}`)
 })
